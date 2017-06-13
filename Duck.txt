@@ -9,6 +9,11 @@
 	{
 		println("Я плаваю.");
 	}
+	
+	func fly() -> Void
+	{
+		println("Я летаю!!!");
+	}
 
 	abstract func display() -> Void;
 }
