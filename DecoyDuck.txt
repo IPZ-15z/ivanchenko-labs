@@ -1,0 +1,7 @@
+﻿class DecoyDuck : Duck
+{
+	override func display() -> Void
+	{
+		println("Надувная утка-приманка для охоты.");
+	}
+}
