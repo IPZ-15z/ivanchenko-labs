@@ -1,0 +1,7 @@
+﻿class MallardDuck : Duck
+{
+	override display() -> Void
+	{
+		println("Я довольно крупная, коренастая речная утка с большой головой и коротким хвостом.");
+	}
+}
