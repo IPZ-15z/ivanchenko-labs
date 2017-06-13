@@ -1,0 +1,14 @@
+﻿abstract class Duck
+{
+	func quack() -> Void
+	{
+		println("Кря!");
+	}
+
+	func swim() -> Void
+	{
+		println("Я плаваю.");
+	}
+
+	abstract func display() -> Void;
+}
