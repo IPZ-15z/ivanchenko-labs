@@ -1,0 +1,7 @@
+﻿class RedheadDuck : Duck
+{
+	override display() -> Void
+	{
+		println("Я нырковая утка среднего размера с коротким хвостом и длинной шеей.");
+	}
+}
