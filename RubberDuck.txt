@@ -1,0 +1,7 @@
+﻿class RubberDuck : Duck
+{
+	override func display() -> Void
+	{
+		println("Желтая резиновая игрушка в виде утки.");
+	}
+}
