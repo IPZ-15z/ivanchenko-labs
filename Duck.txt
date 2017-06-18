@@ -1,18 +1,8 @@
 ﻿abstract class Duck
 {
-	func quack() -> Void
-	{
-		println("Кря!");
-	}
-
 	func swim() -> Void
 	{
 		println("Я плаваю.");
-	}
-	
-	func fly() -> Void
-	{
-		println("Я летаю!!!");
 	}
 
 	abstract func display() -> Void;

@@ -1,7 +1,17 @@
-﻿class MallardDuck : Duck
+﻿class MallardDuck : Duck, IFlyable, IQuackable
 {
 	override display() -> Void
 	{
 		println("Я довольно крупная, коренастая речная утка с большой головой и коротким хвостом.");
 	}
+	
+	func fly() -> Void
+	{
+		print("Я летаю!!!");
+	}
+
+	func quack() -> Void
+	{
+		print("Кря!");
+	}	
 }

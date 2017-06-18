@@ -1,7 +1,12 @@
-﻿class RubberDuck : Duck
+﻿class RubberDuck : Duck, IQuackable
 {
 	override func display() -> Void
 	{
 		println("Желтая резиновая уточка для ванны.");
+	}
+
+	func quack() -> Void
+	{
+		print("*писк*");
 	}
 }
