@@ -1,0 +1,4 @@
+interface IFlyBehavior
+{
+	func fly() -> Void;
+}
