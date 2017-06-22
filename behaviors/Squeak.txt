@@ -1,0 +1,7 @@
+class Squeak : IQuackBehavior
+{
+	func quack() -> Void
+	{
+		print("*писк*");
+	}
+}

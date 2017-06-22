@@ -1,17 +1,13 @@
-﻿class RedheadDuck : Duck, IFlyable, IQuackable
+﻿class RedheadDuck : Duck
 {
+	constructor()
+	{
+		_flyBehavior = new FlyWithWings();
+		_quackBehavior = new Quack();
+	}
+
 	override display() -> Void
 	{
 		println("Я нырковая утка среднего размера с коротким хвостом и длинной шеей.");
-	}
-	
-	func fly() -> Void
-	{
-		print("Я летаю!!!");
-	}
-
-	func quack() -> Void
-	{
-		print("Кря!");
 	}
 }

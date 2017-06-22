@@ -1,0 +1,7 @@
+class MuteQuack : IQuackBehavior
+{
+	func quack() -> Void
+	{
+		// ignored
+	}
+}

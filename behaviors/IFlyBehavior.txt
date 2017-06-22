@@ -1,4 +1,4 @@
-interface IFlyable
+interface IFlyBehavior
 {
 	func fly() -> Void;
 }

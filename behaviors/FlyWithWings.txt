@@ -1,0 +1,7 @@
+class FlyWithWings : IFlyBehavior
+{
+	func fly() -> Void
+	{
+		print("Я летаю!!!");
+	}
+}

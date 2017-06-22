@@ -1,8 +1,31 @@
 ﻿abstract class Duck
 {
+	protected var _quackBehavior: IQuackBehavior = new MuteQuack();
+	protected var _flyBehavior: IFlyBehavior = new FlyNoWay();
+
+	func peformFly() -> Void
+	{
+		_flyBehavior.fly();
+	}
+
+	func peformQuack() -> Void
+	{
+		_quackBehavior.quack();
+	}
+
 	func swim() -> Void
 	{
 		println("Я плаваю.");
+	}
+
+	func setFlyBehavior(IFlyBehavior fb) -> Void
+	{
+		_flyBehavior = fb;
+	}
+
+	func setQuackBehavior(IQuackBehavior qb) -> Void
+	{
+		_quackBehavior = qb;
 	}
 
 	abstract func display() -> Void;

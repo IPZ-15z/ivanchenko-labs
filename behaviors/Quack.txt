@@ -1,0 +1,7 @@
+class Quack : IQuackBehavior
+{
+	func quack() -> Void
+	{
+		print("Кря!");
+	}
+}
