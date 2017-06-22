@@ -1,0 +1,7 @@
+class FlyNoWay : IFlyBehavior
+{
+	func fly() -> Void
+	{
+		// ignored
+	}
+}
