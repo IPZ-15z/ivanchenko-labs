@@ -1,0 +1,13 @@
+class ModelDuck : Duck
+{
+	constructor()
+	{
+		_flyBehavior = new FlyNoWay();
+		_quackBehavior = new Quack();
+	}
+
+	override func display() -> Void
+	{
+		println("Модель утки.");
+	}
+}
