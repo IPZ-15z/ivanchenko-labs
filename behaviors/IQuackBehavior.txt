@@ -1,0 +1,4 @@
+interface IQuackBehavior
+{
+	func quack() -> Void;
+}
