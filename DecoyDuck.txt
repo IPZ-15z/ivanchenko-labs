@@ -1,5 +1,11 @@
 ﻿class DecoyDuck : Duck
 {
+	constructor()
+	{
+		_flyBehavior = new FlyNoWay();
+		_quackBehavior = new MuteQuack();
+	}
+
 	override func display() -> Void
 	{
 		println("Надувная утка-приманка для охоты.");

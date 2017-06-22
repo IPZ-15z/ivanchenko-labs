@@ -1,17 +1,13 @@
-﻿class MallardDuck : Duck, IFlyable, IQuackable
+﻿class MallardDuck : Duck
 {
+	constructor()
+	{
+		_flyBehavior = new FlyWithWings();
+		_quackBehavior = new Quack();
+	}
+
 	override display() -> Void
 	{
 		println("Я довольно крупная, коренастая речная утка с большой головой и коротким хвостом.");
-	}
-	
-	func fly() -> Void
-	{
-		print("Я летаю!!!");
-	}
-
-	func quack() -> Void
-	{
-		print("Кря!");
 	}	
 }

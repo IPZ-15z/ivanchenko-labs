@@ -1,12 +1,13 @@
-﻿class RubberDuck : Duck, IQuackable
+﻿class RubberDuck : Duck
 {
+	constructor()
+	{
+		_flyBehavior = new FlyNoWay();
+		_quackBehavior = new Squeak();
+	}
+
 	override func display() -> Void
 	{
 		println("Желтая резиновая уточка для ванны.");
-	}
-
-	func quack() -> Void
-	{
-		print("*писк*");
 	}
 }
