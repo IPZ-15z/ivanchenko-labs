@@ -1,4 +1,4 @@
-# Лабораторная работа 1
+# Лабораторные работы 1-4
 
 <a href="https://github.com/Moreniell/study-projects"><img
   src="http://i.imgur.com/UbTWlxM.png" alt="Repository Type"
