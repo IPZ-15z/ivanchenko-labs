@@ -1,0 +1,7 @@
+class StrangeQuack : IQuackBehavior
+{
+	func quack() -> Void
+	{
+		print("###$62)I((_QWJP(PIQDW=");
+	}
+}
