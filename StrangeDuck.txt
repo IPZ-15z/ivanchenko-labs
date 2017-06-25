@@ -2,8 +2,8 @@ class StrangeDuck : Duck
 {
 	constructor()
 	{
-		_flyBehavior = new FlyWithWings();
-		_quackBehavior = new Quack();
+		_flyBehavior = new ChaoticFlight();
+		_quackBehavior = new StrangeQuack();
 	}
 
 	override display() -> Void
