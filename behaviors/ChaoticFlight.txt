@@ -1,0 +1,7 @@
+class ChaoticFlight : IFlyBehavior
+{
+	func fly() -> Void
+	{
+		print("Утка хаотично летает.");
+	}
+}
