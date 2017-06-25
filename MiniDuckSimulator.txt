@@ -1,0 +1,14 @@
+class MiniDuckSimulator
+{
+	static func main(args: String[]) -> Void
+	{
+		var mallard: Duck = new MallardDuck();
+		mallard.peformQuack();
+		mallard.peformFly();
+
+		var model: Duck = new ModelDuck();
+		model.peformFly();
+		model.setFlyBehavior(new FlyRocketPowered());
+		model.peformFly();
+	}
+}

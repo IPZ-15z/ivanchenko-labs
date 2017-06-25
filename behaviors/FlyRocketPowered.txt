@@ -1,0 +1,7 @@
+class FlyRocketPowered : IFlyBehavior
+{
+	func fly() -> Void
+	{
+		print("Я летаю на ракете!!!");
+	}
+}
