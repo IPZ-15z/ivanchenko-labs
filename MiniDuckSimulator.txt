@@ -2,11 +2,11 @@ class MiniDuckSimulator
 {
 	static func main(args: String[]) -> Void
 	{
-		Duck mallard = new MallardDuck();
+		var mallard: Duck = new MallardDuck();
 		mallard.peformQuack();
 		mallard.peformFly();
 
-		Duck model = new ModelDuck();
+		var model: Duck = new ModelDuck();
 		model.peformFly();
 		model.setFlyBehavior(new FlyRocketPowered());
 		model.peformFly();
