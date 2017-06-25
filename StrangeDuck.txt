@@ -8,6 +8,6 @@ class StrangeDuck : Duck
 
 	override display() -> Void
 	{
-		println("(__(QWD(void.layer)_KQWPDQWPDJ(J#D)@#J)#FJ)#D@#DH#@(HD)@J(D#");
+		println("(__(QWD(void.layer)_KQWPDQWPDJ(magic-particles.model)@#J)#FJ)#D@#DH#@(HD)@J(D#");
 	}
 }
