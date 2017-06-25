@@ -1,0 +1,13 @@
+class StrangeDuck : Duck
+{
+	constructor()
+	{
+		_flyBehavior = new FlyWithWings();
+		_quackBehavior = new Quack();
+	}
+
+	override display() -> Void
+	{
+		println("(__(QWD(WD_KQWPDQWPDJ(J#D)@#J)#FJ)#D@#DH#@(HD)@J(D#");
+	}
+}
